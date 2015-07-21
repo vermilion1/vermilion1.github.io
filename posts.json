@@ -1,0 +1,12 @@
+---
+---
+
+[
+  {% for post in site.posts %}
+    {
+      "url": "{{ post.url | prepend: site.baseurl }}",
+      "date": "{{post.date}}",
+      "title": "{{post.title}}"
+    }{% if post.previous %},{% endif %}
+  {% endfor %}
+]
