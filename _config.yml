@@ -1,0 +1,10 @@
+# Site settings
+title: Front-ender's notes
+description: A front-end developers blog and not only
+baseurl: ""
+twitter_username: vpetrychuk
+github_username:  vermilion1
+
+# Build settings
+markdown: kramdown
+paginate: 10
